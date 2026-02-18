@@ -1,33 +1,33 @@
-#🛒 Retail Sales Analytics Project — Databricks
-#📌 Project Overview
+🛒 Retail Sales Analytics Project — Databricks
+📌 Project Overview
 
 This project builds an end-to-end Retail Sales Analytics solution using Databricks and the Medallion Architecture (Bronze → Silver → Gold).
 It ingests messy retail data, cleans and transforms it, generates KPIs, and publishes an interactive Databricks SQL Dashboard for business insights.
 
-#🔗 Published Dashboard:
+🔗 Published Dashboard
 https://dbc-ea88c990-5353.cloud.databricks.com/dashboardsv3/01f10c6edcec1ec3a2e13a7295a9d34a/published?o=2022441965144207
 
-#🧩 Business Use Case
+🧩 Business Use Case
 
 A mid-size retail company struggles to consolidate and analyze sales data from multiple sources and formats.
 
-#🎯 Goals
+🎯 Goals
 
 Clean messy data (missing values, duplicates, inconsistent formats)
 
 Create a single source of truth for sales, customers, and products
 
-Track KPIs like revenue, AOV, repeat customers
+Track KPIs such as revenue, AOV, and repeat customers
 
-Enable business insights by product, category, and time
+Enable insights by product, category, and time
 
 Provide dashboards for data-driven decision-making
 
-#🏗️ Architecture — Medallion Architecture
+🏗️ Architecture — Medallion Architecture
 
-This project follows Databricks’ Medallion Architecture:
+This project follows Databricks Medallion Architecture:
 
-#🥉 Bronze Layer — Raw Data
+🥉 Bronze Layer — Raw Data
 
 Purpose: Ingest raw data without transformations
 Source: CSV / Parquet files (simulated in Databricks Community Edition)
@@ -36,9 +36,9 @@ Key Tasks
 
 Load raw sales data
 
-Store in Delta tables
+Store data in Delta tables
 
-#🥈 Silver Layer — Cleaned & Standardized Data
+🥈 Silver Layer — Cleaned & Standardized Data
 
 Purpose: Data cleaning and transformation
 
@@ -56,12 +56,11 @@ Normalize product names
 
 Handle negative or invalid quantities
 
-#🥇 Gold Layer — Aggregated Business Data
+🥇 Gold Layer — Aggregated Business Data
 
 Purpose: Create analytics-ready tables
 
 Aggregations
-
 Metrics grouped by:
 
 Product
@@ -72,7 +71,7 @@ Category
 
 Time (Year, Month, Date)
 
-#📊 KPIs Derived
+📊 KPIs Derived
 
 Total Revenue
 
@@ -96,9 +95,9 @@ Top Products by Revenue & Quantity
 
 Customer Lifetime Value (CLV) (approx.)
 
-#📈 Dashboard (Built in Databricks SQL)
+📈 Dashboard (Built in Databricks SQL)
 
-The dashboard provides interactive insights:
+The dashboard provides interactive insights.
 
 Dashboard Features
 
@@ -114,7 +113,7 @@ KPI summary tiles
 
 📢 Published using Databricks Dashboard Sharing.
 
-#🛠️ Tech Stack
+🛠️ Tech Stack
 
 Databricks Community Edition
 
